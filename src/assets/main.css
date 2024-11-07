@@ -1,0 +1,60 @@
+@import './base.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-hero {
+  position: relative;
+  background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-modern-black-friday-sale-and-offers-background-picture-image_1236241.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-size: 100%;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-footer {
+  background: rgb(121,9,24);
+background: linear-gradient(90deg, rgba(121,9,24,1) 10%, rgba(69,19,25,1) 47%);
+}
+
+.bg-muted-iphone { background-color: #00796b; } 
+.bg-muted-oppo { background-color: #33691e; } 
+.bg-muted-asus { background-color: #e64a19; } 
+.bg-muted-xiaomi { background-color: #c2185b; } 
+.bg-muted-realme { background-color: #3949ab; } 
+.bg-muted-samsung { background-color: #673ab7; } 
+.bg-muted-nokia { background-color: #0277bd; }
+.bg-muted-huawei { background-color: #8e24aa; } 
+.bg-muted-apple { background-color: #004d40; } 
+.bg-muted-oneplus { background-color: #ef6c00; } 
+.bg-muted-vivo { background-color: #0097a7; }
+.bg-muted-google-pixel { background-color: #512da8; } 
+.bg-muted-nothing-phone { background-color: #f57c00; } 
+.bg-muted-infinix { background-color: #388e3c; } 
+.bg-muted-blackberry { background-color: #7b1f1f;} 
+.bg-muted-lenovo { background-color: #5f9ea0; } 
+.bg-muted-sony { background-color: #2f7d7d; } 
+
+
+
+      
+
+

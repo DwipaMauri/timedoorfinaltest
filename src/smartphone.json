@@ -1,0 +1,105 @@
+{
+    "smartphones": {
+      "-NhspqQ1ca4KYtfD1a1b": {
+        "category": "Smartphone",
+        "color": "Black",
+        "description": "High-performance smartphone with a stunning 6.5-inch OLED display, 128GB storage, and a powerful camera system.",
+        "image": "https://sa.mtajrs.com/wp-content/uploads/2021/03/M18549J.jpg",
+        "name": "Galaxy S21",
+        "price": "1099000",
+        "shipping": "30000",
+        "size": "128GB"
+      },
+      "-NhspqQ1ca4KYtfD1a2b": {
+        "category": "Smartphone",
+        "color": "Silver",
+        "description": "Slim and lightweight, featuring 64GB storage, dual cameras, and a 6.1-inch LCD display.",
+        "image": "https://easyphone.lv/wp-content/uploads/2022/01/silver00.jpg",
+        "name": "iPhone 13 Mini",
+        "price": "1299000",
+        "shipping": "30000",
+        "size": "64GB"
+      },
+      "-NhspqQ1ca4KYtfD1a3b": {
+        "category": "Smartphone",
+        "color": "Blue",
+        "description": "Affordable smartphone with a 6.5-inch display, triple cameras, and 4GB RAM for smooth performance.",
+        "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1619424023.00057432.png",
+        "name": "Xiaomi Redmi Note 10",
+        "price": "279000",
+        "shipping": "20000",
+        "size": "4GB RAM, 64GB"
+      },
+      "-NhspqQ1ca4KYtfD1a4b": {
+        "category": "Smartphone",
+        "color": "Green",
+        "description": "Dual SIM smartphone with a 5.5-inch display, 64GB storage, and a 13MP rear camera.",
+        "image": "https://img.nieuwemobiel.nl/oppo-a53-green-overview-5f8817e1d9f85.jpg",
+        "name": "OPPO A53",
+        "price": "199000",
+        "shipping": "25000",
+        "size": "64GB"
+      },
+      "-NhspqQ1ca4KYtfD1a5b": {
+        "category": "Smartphone",
+        "color": "Gray",
+        "description": "Advanced 5G smartphone with a 120Hz 6.7-inch display, 256GB storage, and quad cameras.",
+        "image": "https://anavisvolta.com/wp-content/uploads/2022/10/233752_z13c3z.png",
+        "name": "OnePlus 9 Pro",
+        "price": "1599000",
+        "shipping": "35000",
+        "size": "256GB"
+      },
+      "-NhspqQ1ca4KYtfD1a6b": {
+        "category": "Smartphone",
+        "color": "Red",
+        "description": "Compact smartphone with a 5.8-inch display, 128GB storage, and a reliable battery life.",
+        "image": "https://media.pricebook.co.id/images/product/L/92769_L_1.jpg",
+        "name": "iPhone SE (2020)",
+        "price": "899000",
+        "shipping": "25000",
+        "size": "128GB"
+      },
+      "-NhspqQ1ca4KYtfD1a7b": {
+        "category": "Smartphone",
+        "color": "Gold",
+        "description": "Flagship smartphone with a 6.8-inch dynamic display, 512GB storage, and a professional-grade camera system.",
+        "image": "https://images.samsung.com/uk/smartphones/galaxy-note20/buy/carousel/mobile/005-galaxynote20-mysticbronze.jpg",
+        "name": "Galaxy Note 20 Ultra",
+        "price": "9800000",
+        "shipping": "40000",
+        "size": "512GB"
+      },
+      "-NhspqQ1ca4KYtfD1a8b": {
+        "category": "Smartphone",
+        "color": "Blue",
+        "description": "High-quality budget smartphone with 32GB storage, a 6.2-inch display, and an 8MP rear camera.",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.exPXUcaHVGUSHFB-43TLuQHaFj&pid=Api&P=0&h=180",
+        "name": "Nokia 3.4",
+        "price": "1790000",
+        "shipping": "20000",
+        "size": "32GB"
+      },
+      "-NhspqQ1ca4KYtfD1a9b": {
+        "category": "Smartphone",
+        "color": "Black",
+        "description": "Dual SIM with 4GB RAM, a 6.4-inch display, 128GB storage, and a 48MP rear camera.",
+        "image": "https://harmanhouse.com/wp-content/uploads/2020/08/Samsung-Galaxy-A31-Black-2.jpg",
+        "name": "Samsung Galaxy A31",
+        "price": "2200000",
+        "shipping": "25000",
+        "size": "128GB"
+      },
+      "-NhspqQ1ca4KYtfD1a10b": {
+        "category": "Smartphone",
+        "color": "Silver",
+        "description": "Affordable yet powerful with 3GB RAM, 64GB storage, and a 6.5-inch HD display.",
+        "image": "https://1.bp.blogspot.com/-U2rrgvIRnGU/XyfksjOEksI/AAAAAAAANgU/AuzgTJP8M7oJBD9l2ktMBotO9nVS8pxDwCLcBGAsYHQ/s1600/realme-c15.png",
+        "name": "Realme C15",
+        "price": "15000000",
+        "shipping": "20000",
+        "size": "64GB"
+      }
+    }
+  }
+  
