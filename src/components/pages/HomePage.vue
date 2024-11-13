@@ -430,6 +430,8 @@ const store = useStore();
 const smartphoneListStatus = ref(false);
 const smartphoneList = ref([]);
 
+function ambilData(){}
+
 onMounted(async () => {
   try {
     const data = await store.dispatch("smartphone/getSmartphoneData");

@@ -102,8 +102,16 @@ import { useStore } from "vuex";
 const store = useStore();
 const router = useRouter();
 
+const userData = computed(() => {
+  return store.state.auth.userLogin;
+});
+
 const logout = () => {
   store.commit("auth/setUserLogout");
   router.push("/");
+};
+
+const goToSmartphones = () => {
+    router.push("/user/smartphone/card");
 };
 </script>

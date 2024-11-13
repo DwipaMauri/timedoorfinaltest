@@ -14,28 +14,40 @@
             <i class="fa-solid fa-plus text-success"></i>
           </router-link>
         </div>
-        <!-- <product-card
-          v-for="product in products"
-          :key="product.id"
-          :product="product"
-          is-admin="true"
-        ></product-card> -->
+        <smartphone-card
+          v-for="smartphone in smartphones"
+          :key="smartphone.id"
+          :smartphone="smartphone"
+          :is-admin="true"
+        ></smartphone-card>
       </div>
     </li>
   </ul>
 </template>
 
 <script setup>
-// import ProductCard from "@/components/ui/ProductCard.vue";
+import smartphone from "@/store/smartphone";
+import SmartphoneCard from "../ui/SmartphoneCard.vue";
 
 import { computed } from "vue";
 import { useStore } from "vuex";
 
 const store = useStore();
 
-// const products = computed(() => {
-//   const allProducts = store.state.product.products;
-//   const userId = store.state.auth.userLogin.userId;
-//   return allProducts.filter((product) => product.userId === userId);
+const smartphones = computed(() => {
+  const allSmartphone = store.state.smartphone.smartphones;
+  const userId = store.state.auth.userLogin.userId;
+  return allSmartphone.filter((smartphone) => smartphone.userId === userId);
+});
+// const smartphones = computed(() => {
+//   // const localId = store.state.auth?.userLogin?.localId;
+//   // return smartphone.filter((smartphone) => smartphone.userId === userId);
+
+//   return smartphone
 // });
+
+console.log(smartphones.value, {
+  2: store.state.smartphone,
+  3: store.state.auth?.userLogin?.localId,
+});
 </script>

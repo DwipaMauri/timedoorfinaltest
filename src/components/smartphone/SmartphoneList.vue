@@ -6,7 +6,11 @@
       v-for="(smartphone, index) in smartphones"
       :key="index"
     >
-      <div class="card text-decoration-none" style="height: 398px">
+      <RouterLink
+        :to="`/user/Smartphone/${smartphone.id}`"
+        class="card text-decoration-none"
+        style="height: 398px"
+      >
         <img
           :src="smartphone.image"
           class="card-img-top"
@@ -23,7 +27,7 @@
           <p>Brand: {{ smartphone.category }}</p>
           <!-- Asumsikan kategori merujuk pada merek -->
         </div>
-      </div>
+      </RouterLink>
       <div
         class="position-absolute text-secondary bg-light px-2 py-1 rounded-circle top-0 end-0 m-4 like-icon"
       >

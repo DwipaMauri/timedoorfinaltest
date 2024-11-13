@@ -5,9 +5,11 @@ export default {
   namespaced: true,
   state() {
     return {
-      token: Cookies.get("jwt") || null,
+      // token: Cookies.get("jwt") || null,
+      token: null,
       tokenExpirationDate: null,
-      userLogin: null,
+      // userLogin: JSON.parse(Cookies.get("profile")) || null,
+      userLogin: {},
       isLogin: false,
     };
   },
